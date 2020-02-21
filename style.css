@@ -1,0 +1,191 @@
+/*========Colour Palette ==========
+
+Black = #08090b
+Dark Brown = #431f1d
+Light Brown = #90584b
+Tan = #c6783c
+Beige = #ebc6a8
+
+========End Colour Palette ==========*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  overflow-x: hidden;
+  color: #431f1d;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color:black;
+  text-decoration: underline;
+}
+
+.offset::before {
+  display: block;
+  content: "";
+  height: 4rem;
+}
+
+/*======Navigation======*/
+.navbar {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .1rem;
+  background: rgba(67, 31, 29, 0.82) !important;
+}
+
+.navbar-brand h1 {
+  height: 1em;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navbar-nav li {
+  padding-right: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ebc6a8;
+}
+
+/*============= Landing Page =============*/
+.home-inner {
+  background-image: url(img/heart.jpg);
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: #FFF;
+}
+
+.caption h1 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 20px;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 50;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+/*============= About Section =============*/
+.narrow {
+  width: 75%;
+  margin: 1rem auto;
+  padding-top: 1rem;
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
+.narrow h1 {
+  font-size: 40px;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 50;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #90584b;
+  background-color: #90584b;
+  color: white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #c6783c;
+  background-color: #c6783c;
+  color: white;
+}
+
+/*=====Features section=====*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 1rem 0 1rem;
+  border-radius: 0;
+  font-size: 1rem;
+  
+}
+
+h3.heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #90584b;
+  margin: 0 auto 2rem;
+}
+
+#gallery {
+  background-color: #431f1d;
+}
+
+.gallery-container {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+.gallery-container h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+/*=====Footer=======*/
+footer {
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+
+footer h1 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+footer a {
+  color: #431f1d;
+}
+
+footer a:hover {
+  color: #431f1d;
+  font-weight: 600;
+}
