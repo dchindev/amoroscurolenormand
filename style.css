@@ -69,7 +69,8 @@ a:hover{
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 30%;
+  transform: translateY(-50%);
+  top: 50%;
   z-index: 1;
   color: #FFF;
 }
@@ -137,7 +138,7 @@ a:hover{
   padding: 1rem 0 1rem;
   border-radius: 0;
   font-size: 1rem;
-  
+
 }
 
 h3.heading {
