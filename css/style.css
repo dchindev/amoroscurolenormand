@@ -60,9 +60,8 @@ a:hover{
 
 /*============= Landing Page =============*/
 .home-inner {
-  background-image: url(img/heart.jpg);
+  background-image: url('heartbg.JPG');
   background-color: rgba(0, 0, 0, 0.6);
-  background-blend-mode: multiply;
 }
 
 .caption {
